@@ -15,7 +15,7 @@ define(function (require) {
     // Vis object of this type.
     return new TemplateVisType({
       name: 'markdown',
-      title: 'Markdown widget',
+      title: 'Markdown文本挂件',
       icon: 'fa-code',
       description: 'Useful for displaying explanations or instructions for dashboards.',
       template: require('plugins/markdown_vis/markdown_vis.html'),

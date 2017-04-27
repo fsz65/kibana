@@ -5,7 +5,7 @@ define(function (require) {
 
     return new VislibVisType({
       name: 'pie',
-      title: 'Pie chart',
+      title: '饼图',
       icon: 'fa-pie-chart',
       description: 'Pie charts are ideal for displaying the parts of some whole. For example, sales percentages by department.' +
        'Pro Tip: Pie charts are best used sparingly, and with no more than 7 slices per pie.',
