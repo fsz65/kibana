@@ -1,3 +1,4 @@
+import 'ui/fsz_user/login_user';
 import $ from 'jquery';
 import { remove } from 'lodash';
 

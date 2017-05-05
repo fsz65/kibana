@@ -23,6 +23,7 @@
 
     <!-- Full navbar -->
     <div collapse="!showCollapsed" class="navbar-collapse" kbn-chrome-append-nav-controls>
+      <login-user></login-user>
       <ul class="nav navbar-nav" role="navigation">
         <li
           ng-if="chrome.getBrand('logo')"
@@ -50,8 +51,10 @@
           <a ng-click="appSwitcherTemplate.toggle('switcher')">
             <i class="fa fa-th" alt="Show app switcher"></i>
           </a>
+
         </li>
       </ul>
+
     </div>
     <!-- /Full navbar -->
   </nav>
