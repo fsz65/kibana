@@ -1,0 +1,21 @@
+<ul class="nav navbar-nav navbar-right user-info-navbar">
+  <li ng-class="showLoginUserStyle()">
+    <a  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"  data-close-others="true" aria-expanded="false"
+    ng-click="showClickStatus()">
+      <input id="usernum" value="admin" type="hidden">
+      <span class="top-user"><i class="fa fa-user"></i></span>
+      <span class="username username-hide-on-mobile ng-binding">{{jobNumber}}</span>
+      <i class="fa fa-angle-down"></i>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-default">
+      <li>
+        <a ng-href="http://rdas.cnsuning.com/rdas-admin/index.html" target="_blank" href="http://rdas.cnsuning.com/rdas-admin/index.html">
+          <i class="fa fa-user"></i>监控大盘</a>
+      </li>
+      <li>
+        <a href="logout">
+          <i class="fa fa-sign-out"></i>退出登录</a>
+      </li>
+    </ul>
+  </li>
+</ul>
